@@ -117,6 +117,11 @@ streamlit run app.py
 
 Enter the required house details and click **Predict Price** to get the estimated house price.
 
+## 🚀 Live Demo
+
+👉 [Try the House Price Prediction App](https://housepriceprediction-pd2ook3dfzcglrk6rgqwlp.streamlit.app/)
+
+
 
 
 
