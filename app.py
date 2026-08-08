@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load model
-model = pickle.load(open("../MODELS/house_price_model.pkl", "rb"))
+model = pickle.load(open("MODELS/house_price_model.pkl", "rb"))
 
 st.title("🏠 House Price Prediction")
 
@@ -51,4 +51,3 @@ if st.button("Predict Price"):
     prediction = model.predict(features)
 
     st.success(f"Predicted House Price: ₹ {prediction[0]:,.2f}")
-    
